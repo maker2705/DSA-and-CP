@@ -44,6 +44,19 @@ Output Format
 
 public class EnoughSpace {
     public static void main(String[] args) {
-
+        Scanner sc=new Scanner(System.in);
+		int T=sc.nextInt();
+		while(T-->0){
+		  int n,x,y;
+		  n=sc.nextInt();
+		  x=sc.nextInt();
+		  y=sc.nextInt();
+		 int sum=x+2*y;
+		  if(sum>n){
+		      System.out.println("no");
+		  }
+		  else System.out.println("Yes");
+		}
+		
     }
 }
